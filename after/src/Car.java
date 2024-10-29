@@ -96,5 +96,12 @@ public class Car {
         stock += adjustment;
         System.out.println("Stock adjusted. New stock: " + stock);
     }
-
+/**
+     * Setter untuk harga mobil.
+     *
+     * @param price Harga baru untuk mobil.
+     */
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
